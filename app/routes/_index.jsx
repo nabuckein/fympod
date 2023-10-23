@@ -110,7 +110,7 @@ export default function Home(){
                             <p className="estadisticasText">Serhou Guirassy - Stuttgart</p>
                         </div>
                         <div className="estadisticasTextDiv">
-                            <p className="estadisticasText">Lautaro Martinez - Inter</p>
+                            <p className="estadisticasText">Lautaro Martinez - Inter Milan</p>
                         </div>
                         <div className="estadisticasTextDiv">
                             <p className="estadisticasText">Erling Haaland - Manchester City</p>
