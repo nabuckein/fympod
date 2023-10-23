@@ -1,0 +1,1 @@
+import{d as t,n as r}from"/build/_shared/chunk-EFSXAKN2.js";var o="/build/_assets/dashboard-MPT3KIH6.css";var e=t(r(),1);function s(){return[{rel:"stylesheet",href:o}]}function a(){return(0,e.jsx)(e.Fragment,{children:(0,e.jsx)("h1",{className:"testing",children:"Dashboard"})})}export{a as default,s as links};

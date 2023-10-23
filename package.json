@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@remix-run/css-bundle": "^2.1.0",
+    "@remix-run/express": "^2.1.0",
+    "@remix-run/node": "^2.1.0",
+    "@remix-run/react": "^2.1.0",
+    "axios": "^1.5.1",
+    "express": "^4.18.2",
+    "firebase": "^10.5.0",
+    "framer-motion": "^10.16.4",
+    "isbot": "^3.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.1.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "remix dev -c \"node server.mjs\"",
+    "build": "remix build"
+  }
+  
+}

@@ -1,0 +1,226 @@
+
+.index{
+    width: 100%;
+    height: 100%;
+}
+.mainTitleDiv{
+    width: 100%;
+    height:30%;
+    text-align: center;
+    background-color:black;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+}
+.mainTitleIconsDiv{
+    width:10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content:center ;
+    align-items: center;
+    padding-left: 20px;
+}
+.iconLink{
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.iconsDiv{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    height: 40px;
+    width: 40px;
+    color:white;
+    background-color: white;
+        
+}
+.iconText{
+    color:white;
+    font-size: 22px;
+    font-family: "Urbanist";    
+    height: 60px;
+    width: 100px;
+    line-height: 60px;
+    text-align: left;
+    margin:0;
+    opacity: 0;
+}
+.mainTitleText{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    translate:-125px;
+}
+.mainTitleH1{
+    font-family: "Russo One";
+    font-size: 120px;
+    color:white;
+    width:100%;    
+    line-height: 70px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0;
+    margin-bottom:0;
+}
+.mainTitleH2{
+    font-family: "Permanent Marker";
+    font-size: 80px;
+    color:green;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0;
+    margin-bottom:0;
+    width:40%;
+    text-align: right;
+    line-height: 80px;
+    transform: rotateZ(-5deg)
+    
+}
+.cardsDiv{    
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/stadium_twinCities2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    gap:50px;
+    justify-content: center;
+}
+
+.card{
+    height: 40%;    
+    min-width: 360px;    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5)
+}
+.cardTitle{
+    color: white;
+    font-size: 30px;
+    font-family: "Oswald";
+    text-align: center;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+.cardSubtitleDiv{
+    text-align: center;
+    width: 100%;
+}
+.cardSubtitle{
+    color: white;
+    height: 26px;
+    line-height: 26px;
+    font-size: 24px;
+    font-family: "Oswald";
+    text-align: center;
+    width: 100%;
+}
+.episodesTitleDiv, .pronosticosTitleDiv, .upcomingTitleDiv{
+    
+    text-align: center;
+    width: 100%;
+}
+.episodesContent, .pronosticosContent, .upcomingContent, .estadisticasContent{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap:30px;
+}
+.episodeIFrame{
+    height: 200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+}
+
+
+.upcomingTextDiv, .estadisticasTextDiv{
+    width:90%;
+    height: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.upcomingText, .estadisticasText{
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    font-family: "Oswald";
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.preguntaInputDiv{
+    width: 80%;    
+    margin-left: auto;
+    margin-right: auto;
+}
+.preguntaInput{
+    width: 100%;   
+    font-family: "Oswald";
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.preguntaButtonsDiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap:5px;
+}
+.buttons{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border:none;
+    font-family: "Oswald";
+    font-size:24px;
+    border-radius: 5px;
+}
+.clearButtons{
+    background-color: lightgrey;
+    color:black
+}
+.clearButtons:hover{
+    background-color: white;
+    color:black
+}
+.submitButtons{
+    background-color: darkgreen;
+    color: white;
+}
+.submitButtons:hover{
+    background-color: green;
+    color: white;
+}
